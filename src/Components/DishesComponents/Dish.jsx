@@ -12,7 +12,7 @@ export const Dish = ( {dish} ) => {
     return (
     <div className='columnCenter'>
 
-        <img src={`./${dish.img}.jpg`} alt="pic" width='500px' /> 
+        <img className='img' src={`./${dish.img}.jpg`} alt="pic" width='500px' /> 
         <h2>{dish.name}</h2>
         <p>$ {dish.price}</p>
         <ChangeQuantity quantity={quantity} setQuantity={setQuantity}/>

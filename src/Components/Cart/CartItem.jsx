@@ -16,9 +16,7 @@ export const CartItem = ({cartItem}) => {
             <p>{cartItem.quantity} portion(s)</p>
             <p>${dishes.price * cartItem.quantity}</p>
         </div>
-        
-        <button>+</button>
-               
+                              
         <span className="removeItem" onClick={()=> dispatch (removeItemFromCart({cartItemId: cartItem.id}))}>
             <img  className="icon" alt="icon" src="https://img.icons8.com/material-outlined/48/000000/trash--v1.png" width="25px"/>
         </span>
