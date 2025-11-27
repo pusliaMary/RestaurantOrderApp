@@ -4,21 +4,15 @@ import { Cart } from './Components/Cart/Cart'
 import { AllCategories } from './Components/Filter/AllCategories'
 import { Dishes } from './Components/DishesComponents/Dishes'
 import { useState, useEffect } from 'react'
-import { LoaderPage } from './Loader/LoaderPage'
+
 
 
 function App() {
   
-  const [loader, setLoader] = useState(true)
 
-  useEffect(()=> {
-    const timer = setTimeout(()=> setLoader(false), 2000)
-    return ()=> clearTimeout(timer)
-  }, [])
 
   return (
    <div className="App">
-      {loader && <LoaderPage />}
       <div className='block columnCenter'>
         <div className="header">
             <h1>Choose your preferences...</h1>
