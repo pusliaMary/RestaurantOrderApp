@@ -1,6 +1,6 @@
 import { useState } from "react"
 import { ChangeQuantity } from "../Cart/ChangeQuantity"
-import { addItemToCart } from "../../redux/cartSlice"
+import { addItemToCart } from "../../Redux/cartSlice"
 import { useDispatch } from "react-redux"
 
 export const Dish = ( {dish} ) => {

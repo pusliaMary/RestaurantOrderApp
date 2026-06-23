@@ -1,11 +1,7 @@
 import './index.css'
 import { Cart } from './Components/Cart/Cart'
-
 import { AllCategories } from './Components/Filter/AllCategories'
 import { Dishes } from './Components/DishesComponents/Dishes'
-import { useState, useEffect } from 'react'
-
-
 
 function App() {
   

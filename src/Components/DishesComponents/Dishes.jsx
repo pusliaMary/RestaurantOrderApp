@@ -2,7 +2,7 @@
 import { useSelector } from 'react-redux'
 import dataDishes from '../../Data/DataDishes'
 import { Dish } from './Dish'
-import { getSelectedCategory } from '../../redux/dishesSlice'
+import { getSelectedCategory } from '../../Redux/dishesSlice'
 
 export const Dishes = () => {
 

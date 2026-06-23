@@ -1,6 +1,5 @@
 export const ChangeQuantity = ( {quantity, setQuantity} ) => {
  
-
     const addQuantity = () => {
         const newQuantity = quantity + 1;
         setQuantity(newQuantity)
@@ -13,8 +12,6 @@ export const ChangeQuantity = ( {quantity, setQuantity} ) => {
         setQuantity(newQuantity)
 
     }
-    
-    
     
     return (
     <div className="buttons">

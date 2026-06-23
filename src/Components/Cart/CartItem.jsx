@@ -1,7 +1,6 @@
 import dataDishes from "../../Data/DataDishes"
-import { removeItemFromCart } from "../../redux/cartSlice"
+import { removeItemFromCart } from "../../Redux/cartSlice"
 import { useDispatch } from "react-redux"
-import { addItemToCart } from "../../redux/cartSlice"
 import { ChangeQuantity } from "./ChangeQuantity"
 
 export const CartItem = ({cartItem}) => {
